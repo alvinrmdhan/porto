@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Alvin Arva Putra R</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://alvinrmdhan.github.io/porto/" class="link"
+          >AR.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Halo, saya <span class="about__name">Alvin Arva Putra R.</span></h1>
+        <h2 class="about__role">Siswa SMK, Programmer Pemula.</h2>
+        <p class="about__desc">
+          Saya adalah siswa SMKN 2 Surabaya di jurusan Rekayasa Perangkat Lunak dengan minat yang kuat dalam teknologi. 
+          Memiliki kemampuan dalam mengelola data di MySQL, dapat berkolaborasi dengan tim, dan belajar hal baru untuk 
+          mengembangkan keahlian dalam bidang IT
+        </p>
+
+          <a
+            href="https://github.com/alvinrmdhan"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project-box">
+            <h3>Top Up</h3>
+            <p>Membuat website top up game bernama "Arkada" sebagai proyek kelompok. 
+              Jobdesk saya adalah menjadi UI/UX Designer</p>
+            <p>CSS</p>
+          
+            <div class="project-icons">
+              <a href="https://github.com/alvinrmdhan" target="_blank">
+                <i aria-hidden="true" class="fab fa-github"></i>
+              </a>
+              <a href="https://alvinrmdhan.github.io/top-up/" target="_blank" aria-label="live preview">
+                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+          
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:alvinarvaputrar@gmail.com">
+          <span class="btn btn--outline">Email</span>
+        </a>
+        <a href="https://wa.me/628214365437">
+          <span class="btn btn--outline">Whatsapp</span>
+        </a>
+      </section>
+    </main>
+     
+    <!-- All right to Raj Shekhar. Digunakan oleh Alvin Arva-->
+    <footer class="footer">
+      <p class="Nama">
+         Alvin Arva Putra R
+      </p>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
